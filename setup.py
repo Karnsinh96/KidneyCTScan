@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "KidneyCTScan"
 AUTHOR_USER_NAME = "Karnsinh96"
-SRC_REPO = "Kidney Disease Classifier"
+SRC_REPO = "KidneyDiseaseClassifier"
 AUTHOR_EMAIL = "karnsinh96@gmail.com"
 
 
