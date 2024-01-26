@@ -1,5 +1,8 @@
 # KidneyCTScan
 
+# To Activate venv:- venv\Scripts\activate
+
+
 #Project WorkFlow
 Update config.yaml
 Update secrets.yaml [Optional]
