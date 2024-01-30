@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/Deep%20Learning/Kidney%20Disease%20Classification/KidneyCTScan/mlruns/0/ea40f31781234305a2c0b73afa945208/artifacts
+end_time: 1706596380539
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea40f31781234305a2c0b73afa945208
+run_name: classy-bat-57
+run_uuid: ea40f31781234305a2c0b73afa945208
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706596363336
+status: 3
+tags: []
+user_id: Kaptaan Saab
