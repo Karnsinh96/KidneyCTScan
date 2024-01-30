@@ -1,7 +1,7 @@
 from KidneyDiseaseClassifier.config.configuration import ConfigurationManager
 from KidneyDiseaseClassifier.components.data_inigestion import DataIngestion
 from KidneyDiseaseClassifier import logger
-from KidneyDiseaseClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+
 
 STAGE_NAME = "Data Ingestion stage"
 
