@@ -1,67 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 from src.KidneyDiseaseClassifier import logger
-
 from KidneyDiseaseClassifier import logger
 
 from KidneyDiseaseClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
@@ -78,7 +15,8 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
-'''
+
+
 STAGE_NAME = "Prepare base model"
 try: 
    logger.info(f"*******************")
@@ -90,7 +28,7 @@ except Exception as e:
         logger.exception(e)
         raise e
 
-
+'''
 STAGE_NAME = "Model Training"
 try: 
    logger.info(f"*******************")
