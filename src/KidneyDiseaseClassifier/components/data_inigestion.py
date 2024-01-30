@@ -6,13 +6,12 @@ from KidneyDiseaseClassifier import logger
 from KidneyDiseaseClassifier.utils.common import get_size
 
 from KidneyDiseaseClassifier.config.configuration import DataIngestionConfig
-from KidneyDiseaseClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
 
-    
     def download_file(self)-> str:
         '''
         Fetch data from the url
@@ -42,15 +41,3 @@ class DataIngestion:
         os.makedirs(unzip_path, exist_ok=True)
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
-
-
-
-if __name__ == '__main__':
-    try:
-        logger.info(f">>>>>> Data Ingestion for DVC check Started <<<<<<")
-        obj = DataIngestionTrainingPipeline()
-        obj.main()
-        logger.info(f">>>>>> Data Ingestion for DVC check completed <<<<<<\n\nx==========x")
-    except Exception as e:
-        logger.exception(e)
-        raise e

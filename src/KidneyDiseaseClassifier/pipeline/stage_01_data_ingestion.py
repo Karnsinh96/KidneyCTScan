@@ -1,6 +1,7 @@
 from KidneyDiseaseClassifier.config.configuration import ConfigurationManager
 from KidneyDiseaseClassifier.components.data_inigestion import DataIngestion
 from KidneyDiseaseClassifier import logger
+from KidneyDiseaseClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 
 STAGE_NAME = "Data Ingestion stage"
 
@@ -16,7 +17,7 @@ class DataIngestionTrainingPipeline:
         data_ingestion.download_file()
         data_ingestion.extract_zip_file()
 
-'''
+
 
 if __name__ == '__main__':
     try:
@@ -27,5 +28,3 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
-
-'''
