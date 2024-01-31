@@ -27,3 +27,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/Karnsinh96/KidneyCTScan.mlflow
 export MLFLOW_TRACKING_USERNAME=Karnsinh96
 export MLFLOW_TRACKING_PASSWORD=49dfbacbbe38354686de7ff25de3cc5069a5405b
 python script.py
+
+
+
+876805237062.dkr.ecr.us-east-1.amazonaws.com/dl-kidney
